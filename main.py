@@ -1,5 +1,5 @@
-from matrix import multiply_matrices as mm
-from matrix import Matrix
+from .Matrix.model import Matrix
+from .Matrix.functions import multiply_matrices as mm
 
 
 def linear_regression(X,Y):

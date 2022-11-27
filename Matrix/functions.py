@@ -1,12 +1,3 @@
-class Matrix:
-    
-    def __init__(self, matrix: list):
-        self.matrix = matrix
-
-    def __str__(self):
-        return str(self.matrix)
-
-
 def multiply_matrices(A: Matrix, B: Matrix):
     l = len(A.matrix)
     m = len(A.matrix[0])
